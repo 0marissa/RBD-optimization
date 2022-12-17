@@ -1,5 +1,5 @@
 # RBD-optimization
-Codebase for performing ML-based recovery-based design optimization.
+Codebase for performing recovery-based design optimization.
 
 This folder contains the code associated with the study: 
 
