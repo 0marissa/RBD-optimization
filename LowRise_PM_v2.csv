@@ -1,0 +1,45 @@
+Default_Component,System_ID,System_des,redi_repair_sequence,Subsystem_ID,Subsystem_des,Summary,Description,ComponentValue,qtyPerUnit,pelicunUnits,Directional,Locations,FloorQuant,OfficeMatrix
+B1031.001,1,structural,s,0,,Bolted shear tab gravity connections,Bolted shear tab gravity connections,1,1,ea,Y,all,Y,48
+B1031.011a,1,structural,s,0,,Steel Column Base Plates,"Steel Column Base Plates, Column W < 150 plf",1,1,ea,Y,1,Y,20
+B1031.021a,1,structural,s,0,,Welded column splices,"Welded column splices, Column W < 150 plf",1,1,ea,Y,2,Y,20
+B1035.001,1,structural,s,0,,Post-Northridge RBS connection: single beam side,"Post-Northridge RBS connection with welded web, beam one side of column only, beam depth <= W27",1,1,ea,Y,all,Y,8
+B1035.011,1,structural,s,0,,Post-Northridge RBS connection: double beam side,"Post-Northridge RBS connection with welded web, beams both sides of column, beam depth <= W27",1,1,ea,Y,all,Y,12
+B2011.201a,2,exterior,b,0,,Precast Concrete Panels - in plane deformation,Precast Concrete Panels 4.5 inches thick - in plane deformation,1,30,ft,Y,all,Y,2.22
+B2011.201b,2,exterior,b,0,,Precast Concrete Panels - out of plane deformation,Precast Concrete Panels 4.5 inches thick - out of plane deformation,1,30,ft,Y,all,Y,2.22
+B2022.002,2,exterior,b,0,,Glass Curtain Walls,"Curtain Walls - Generic Midrise Stick-Built Curtain wall, Config: Monolithic, Lamination: Unknown, Glass Type: Unknown, Details: Aspect ratio = 6:5,  Other details Unknown",1,30,ft2,Y,all,Y,144.44
+C1011.001b,3,interior,a,0,,Partial-height Gypusm with metal studs,"Wall Partition, Type: Gypsum with metal studs, Partial Height, Fixed Below, Lateral Braced Above",1,100,ft,Y,all,Y,10
+C3011.001b,3,interior,a,0,,Partial-height Gypusm + wallpaper,"Wall Partition, Type: Gypsum + Wallpaper, Partial Height, Fixed Below, Lateral Braced Above",1,100,ft,Y,all,Y,0.75
+C2011.001b,4,stairs,f,0,,Stairs,Prefabricated steel stair with steel treads and landings with no seismic joint.,1,1,ea,Y,all,Y,2
+C3027.002,3,interior,a,0,,Raised access flooring,"Raised Access Floor, seismically rated.",1,100,ft2,N,all,Y,75
+C3032.003a,3,interior,a,0,,Suspended Ceiling I,"Suspended Ceiling, SDC D,E (Ip=1.0), Area (A): A > 2500, Vert & Lat support",1,250,ft2,N,all,Y,9
+C3032.003b,3,interior,a,0,,Suspended Ceiling II,"Suspended Ceiling, SDC D,E (Ip=1.0), Area (A): A < 250, Vert & Lat support",1,600,ft2,N,all,Y,3.75
+C3032.003c,3,interior,a,0,,Suspended Ceiling III,"Suspended Ceiling, SDC D,E (Ip=1.0), Area (A): 250 < A < 1000, Vert & Lat support",1,1800,ft2,N,all,Y,1.25
+C3032.003d,3,interior,a,0,,Suspended Ceiling IV,"Suspended Ceiling, SDC D,E (Ip=1.0), Area (A): 1000 < A < 2500, Vert & Lat support",1,2500,ft2,N,all,Y,0.9
+C3034.002,3,interior,a,0,,Independent Pendant Lighting,Independent Pendant Lighting - seismically rated,1,1,ea,N,all,Y,15
+D1014.011,5,elevators,e,12,elevator cab,Traction Elevator,"Traction Elevator - Applies to most California Installations 1976 or later, most western states installations 1982 or later and most other U.S installations 1998 or later.",1,1,ea,N,1,Y,1
+D2021.013a,6,plumbing,a,8,fluid distribution: potable,Potable Water Piping Branches,"Cold or Hot Potable - Small Diameter Threaded Steel - (2.5 inches in diameter or less), SDC D, E, or F, PIPING FRAGILITY",1,1000,ft,N,all,Y,1.26
+D2021.013b,6,plumbing,a,8,fluid distribution: potable,Potable Water Piping Branches Braces,"Cold or Hot Potable - Small Diameter Threaded Steel - (2.5 inches in diameter or less), SDC D, E, or F, BRACING FRAGILITY",1,1000,ft,N,all,Y,1.26
+D2021.023a,6,plumbing,a,8,fluid distribution: potable,Potable Water Piping Mains,"Cold or Hot Potable Water Piping (dia > 2.5 inches), SDC D,E,F, PIPING FRAGILITY
+",1,1000,ft,N,all,Y,0.45
+D2021.023b,6,plumbing,a,8,fluid distribution: potable,Potable Water Piping Mains Braces,"Cold or Hot Potable Water Piping (dia > 2.5 inches), SDC D,E,F, BRACING FRAGILITY
+",1,1000,ft,N,all,Y,0.45
+D2031.023a,6,plumbing,a,9,fluid distribution: sanitary,Sanitary Waste Piping ,"Sanitary Waste Piping - Cast Iron w/bell and spigot couplings, SDC D,E,F, PIPING FRAGILITY",1,1000,ft,N,all,Y,0.57
+D2031.023b,6,plumbing,a,9,fluid distribution: sanitary,Sanitary Waste Piping Braces,"Sanitary Waste Piping - Cast Iron w/bell and spigot couplings, SDC D,E,F, BRACING FRAGILITY",1,1000,ft,N,all,Y,0.57
+D2051.023a,8,hvac,c,11,fluid distribution: chilling,HVAC Cooling Piping,"Chilled Water Piping - Large Diameter Welded Steel - (greater than 2.5 inches in diameter), SDC D, E, or F, PIPING FRAGILITY",1,1000,ft,N,all,Y,0.57
+D2051.023b,8,hvac,c,11,fluid distribution: chilling,HVAC Cooling Piping Braces,"Chilled Water Piping - Large Diameter Welded Steel - (greater than 2.5 inches in diameter), SDC D, E, or F, BRACING FRAGILITY",1,1000,ft,N,all,Y,0.57
+D3031.013c,8,hvac,c,15,hvac equipment: chillers,Chiller,Chiller - Capacity: < 100 Ton - Equipment that is either hard anchored or is vibration isolated with seismic snubbers/restraints - Combined anchorage/isolator & equipment fragility,1,1,ea,N,R,Y,3
+D3031.022c,8,hvac,c,16,hvac equipment: cooling towers,Cooling Tower,Cooling Tower - Capacity: < 100 Ton - Vibration isolated equipment that is not snubbed or restrained - Combined anchorage/isolator & equipment fragility,1,1,ea,N,R,Y,1
+D3041.001c,8,hvac,c,5,air distribution: in-line fans,HVAC In-line fans,"HVAC Fan In Line Fan, Fan independently supported and vibration isolators, SDC D, E, F",1,10,ea,N,all,Y,0.5
+D3041.012c,8,hvac,c,4,air distribution: ducts,HVAC Duct Mains,"HVAC Galvanized Sheet Metal Ducting -  6 sq. ft cross sectional area or greater, SDC D, E, or F",1,1000,ft,N,all,Y,0.75
+D3041.011c,8,hvac,c,4,air distribution: ducts,HVAC Duct Branches,"HVAC Galvanized Sheet Metal Ducting less than 6 sq. ft in cross sectional area, SDC D, E, or F",1,1000,ft,N,all,Y,0.75
+D3041.032c,8,hvac,c,6,air distribution: drops/diffusers,HVAC Duct Drops,"HVAC Drops / Diffusers without ceilings - supported by ducting only - No independent safety wires, SDC D, E, or F",1,10,ea,N,all,Y,9
+D3041.103c,8,hvac,c,18,hvac equipment: exhaust fans,HVAC Fan,HVAC Fan - Capacity: all - Equipment that is either hard anchored or is vibration isolated with seismic snubbers/restraints - Combined anchorage/isolator & equipment fragility,1,1,ea,N,R,Y,3
+D3052.013c,8,hvac,c,19,hvac equipment: air handeling units,HVAC Air Handling Unit,Air Handling Unit - Capacity: <5000 CFM - Equipment that is either hard anchored or is vibration isolated with seismic snubbers/restraints - Combined anchorage/isolator & equipment fragility,1,1,ea,N,R,Y,6
+D3067.012c,8,hvac,c,20,hvac equipment: control panel,HVAC Control Panel,Control Panel - Capacity: all - Equipment that is either hard anchored or is vibration isolated with seismic snubbers/restraints - Combined anchorage/isolator & equipment fragility,1,1,ea,N,1,Y,1
+D4011.023a,9,fire,a,0,,Fire sprinkler Piping,"Fire Sprinkler Water Piping - Horizontal Mains and Branches - Old Style Victaulic - Thin Wall Steel - Poorly designed bracing, SDC D, E, or F , PIPING FRAGILITY",1,1000,ft,N,all,Y,2
+D4011.053a,9,fire,a,0,,Fire sprinkler Drops,"Fire Sprinkler Drop Standard Threaded Steel - Dropping into braced lay-in tile SOFT ceiling - 6 ft. long drop maximum, SDC D, E, or F",1,100,ea,N,all,Y,1
+D5011.013c,7,electrical,d,1,building equipment,Transformer,Transformer/primary service - Capacity: <100 kVA - Equipment that is either hard anchored or is vibration isolated with seismic snubbers/restraints - Combined anchorage/isolator & equipment fragility,1,1,ea,N,1,Y,1
+D5012.013d,7,electrical,d,1,building equipment,Motor Control Center,Motor Control Center - Capacity: all - Equipment that is either hard anchored or is vibration isolated with seismic snubbers/restraints - Combined anchorage/isolator & equipment fragility,1,1,ea,N,1,Y,1
+D5012.023c,7,electrical,d,1,building equipment,Low Voltage Switchgear,Low Voltage Switchgear - Capacity: 100 to <350 Amp - Equipment that is either hard anchored or is vibration isolated with seismic snubbers/restraints - Combined anchorage/isolator & equipment fragility,1,1,ea,N,1,Y,1
+D5012.033c,7,electrical,d,1,building equipment,Distribution Channel,"Distribution Panel - Capacity: 100 to <350 Amp - Equipment that is either hard anchored or is vibration isolated with seismic snubbers/restraints - Combined anchorage/isolator & equipment fragility
+",1,1,ea,N,all,Y,1
